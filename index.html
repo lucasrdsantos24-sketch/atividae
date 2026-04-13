@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Pastelaria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+  <h1>Sistema de Pedidos</h1>
+
+  <div class="form">
+    <select id="produto">
+      <option value="pastel">Pastel</option>
+      <option value="caldo">Caldo</option>
+      <option value="refrigerante">Refrigerante</option>
+      <option value="suco">Suco</option>
+    </select>
+
+    <input type="number" id="qtd" placeholder="Quantidade">
+
+    <button id="btnAdicionar">Adicionar</button>
+    <button id="btnFinalizar">Finalizar</button>
+  </div>
+
+  <ul id="lista"></ul>
+
+  <h2>Total: R$ <span id="total">0</span></h2>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
